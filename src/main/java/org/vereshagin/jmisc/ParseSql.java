@@ -72,22 +72,7 @@ public class ParseSql
         ;
         printSql( mapper, sql );
 
-      /*
-        if (args.length < 1) {
-          System.err.println("Please provide an input!");
-          System.exit(0);
-        }
-        System.out.println(sha256hex(args[0]));
-        */
-
     }
-
-
-    /*
-    public static String sha256hex(String input) {
-      return DigestUtils.sha256Hex(input);
-    }
-    */
 
     // Print particular sql and its object
     public static void printSql( ObjectMapper mapper, String sql )
@@ -146,7 +131,7 @@ class SqlQueryObj {
 
       TablesNamesFinder tablesNamesFinder = new TablesNamesFinder();
       List<String> tableNames = tablesNamesFinder.getTableList(stmt);
-      System.out.println( tableNames );
+      // System.out.println( tableNames );
       tableNames.stream().forEach(tableName -> {
         // System.out.println( fromItemStr + " " + tableName );
         if( ! fromItemStr.equals( tableName ) ){
