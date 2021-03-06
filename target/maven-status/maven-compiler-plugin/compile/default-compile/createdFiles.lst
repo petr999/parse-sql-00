@@ -1,0 +1,5 @@
+org\vereshagin\jmisc\Source.class
+org\vereshagin\jmisc\SqlQueryObj.class
+org\vereshagin\jmisc\WhereClause.class
+org\vereshagin\jmisc\ParseSql.class
+org\vereshagin\jmisc\Sort.class
