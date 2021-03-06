@@ -18,4 +18,4 @@ Features considered unnecessary:
 
 - tests;
 
-- HAVING from task's SQL.
+- `HAVING` from task's SQL.
