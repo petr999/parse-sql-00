@@ -18,4 +18,8 @@ Features considered unnecessary:
 
 - tests;
 
-- `HAVING` from task's SQL.
+- `HAVING` from task's SQL;
+
+- test sequences data separate storage;
+
+- separate code file per every class.
